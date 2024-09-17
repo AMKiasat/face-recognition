@@ -178,7 +178,6 @@ plt.show()
 
 IMAGE_SIZE = 112
 
-# Load the GhostFaceNets model (PyTorch version)
 ghostface_model = GhostFaceNetsV2(image_size=IMAGE_SIZE, width=1, dropout=0.)
 ghostface_model.eval()
 
